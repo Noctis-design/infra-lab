@@ -1,0 +1,8 @@
+# Logs locaux
+*.log
+services-status-*.txt
+
+# Secrets et clés
+*.pem
+*.key
+.env
