@@ -1,4 +1,5 @@
 #!/bin/bash
+# Verification simple de services critiques
 for SERVICE in ssh cron notaservice; do
   echo "Verification du service $SERVICE"
   if systemctl is-active --quiet "$SERVICE"; then
